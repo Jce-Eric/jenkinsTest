@@ -9,4 +9,9 @@ public class TestController {
     public String getString() {
         return "test";
     }
+
+    @GetMapping(value = "/test2")
+    public String getString2() {
+        return "test2";
+    }
 }
