@@ -14,6 +14,11 @@ public class TestController {
     public String getString2() {
         String s = "";
         // 最长公共子序列
-        return "test5";
+        return "test7";
+    }
+
+    @GetMapping(value = "/test3")
+    public String getString3() {
+        return "test3";
     }
 }
